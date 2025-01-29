@@ -1,6 +1,18 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import BasePage from "./Pages/BasePage"
+import NotFound from "./Pages/NotFound"
+import Home from "./Pages/Home"
+
 function AppRoutes(){
     return(
-        <h1>Hola mundo</h1>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={ <BasePage/> }>
+                    <Route index="/home" element={ <Home/> }/>
+                    <Route path="*" element={ <NotFound/> }/>
+                </Route>
+            </Routes>
+        </BrowserRouter>
     )
 }
 
