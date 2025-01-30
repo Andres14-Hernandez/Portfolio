@@ -1,0 +1,29 @@
+.description{
+    padding: 3%;
+    border: solid 3px var(--border-color);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.description img{
+    object-fit: contain;
+}
+
+.description__info{
+    display: flex;
+    flex-direction: column;
+}
+
+.gift{
+    width: 30%;
+}
+
+.description p{
+    color: var(--color-text);
+}
+
+.networks{
+    margin: auto;
+}

@@ -1,6 +1,9 @@
+// import styles from "./Home.module.css"
+import HomeDescription from "../../Components/HomeDescription"
+
 function Home(){
     return(
-        <h1>Hola Home</h1>
+        <HomeDescription/>
     )
 }
 

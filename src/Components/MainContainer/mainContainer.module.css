@@ -1,5 +1,6 @@
 .container{
-    height: 100px;
+    height: 100%;
     width: 100%;
-    background-color: aqua;
+    padding: 50px;
+    background-color: #191D2D;
 }
