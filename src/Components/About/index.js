@@ -8,7 +8,7 @@ function About(){
 
     return(
         <section>
-            <h1>About Me</h1>
+            <h1 className={styles.title}>About Me</h1>
             <div className={styles.container}>
                 <div className={styles.text}>
                     <p>Description</p>

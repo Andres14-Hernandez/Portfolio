@@ -1,18 +1,18 @@
-import ProyectContainer from "../ProyectContainer"
+import ProjectContainer from "../ProjectContainer"
 import styles from "./proyects.module.css"
-import { useProyects } from "../../Context/ProyectContext";
+import { useProjects } from "../../Context/ProjectContext";
 
 
 function Proyects(){
 
-    const proyects = useProyects();
+    const projects = useProjects();
 
 
     return(
         <>
             <h1 className={styles.title}>My Proyects</h1>
-                {proyects.map((proyect, index)=>(
-                        <ProyectContainer 
+                {projects.map((proyect, index)=>(
+                        <ProjectContainer 
                             key={index} 
                             data={proyect}
                         />))

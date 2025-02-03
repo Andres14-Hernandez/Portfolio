@@ -8,6 +8,7 @@
 :root{
   --color-text: #E3E7EF;
   --border-color: #9676ee;
+  --color-title:#25efc7;
 }
 
 body {
@@ -18,11 +19,11 @@ body {
   -ms-overflow-style: none;
 }
 
-h1, h2, h3, h4, h5, h5{
+h1, h2, h3, h4, h5, h6{
   font-family: "Rubik", serif;
   font-weight: 600;
   font-size: 45px;
-  color: #25efc7;
+  color: var(--color-title);
 }
 
 p{

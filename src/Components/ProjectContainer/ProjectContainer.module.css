@@ -16,3 +16,11 @@
 .textContainer{
     width: 50%;
 }
+
+.textContainer p{
+    margin: 30px 0px;
+}
+
+.link{
+    margin-top: 20px;
+}
