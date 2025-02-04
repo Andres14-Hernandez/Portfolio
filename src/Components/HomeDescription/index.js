@@ -1,8 +1,8 @@
-import CVicon from "../Icons/CV"
-import GitHubIcon from "../Icons/GitHub"
-import LinkedinIcon from "../Icons/Linkedin"
+import { FaGithub, FaLinkedin,  } from "react-icons/fa";
+import { IoDocumentAttachOutline } from "react-icons/io5";
 import styles from "./HomeDescription.module.css"
 import { useState } from "react"
+import { Link } from "react-router-dom";
 
 function HomeDescription(){
  
@@ -26,7 +26,7 @@ function HomeDescription(){
             {copied && <span className={styles.emailSpan}>¡Copied mail!</span>}
           </div>
         );
-      }
+    }
 
 
     return(
@@ -38,9 +38,15 @@ function HomeDescription(){
                 <EmailCopy/>
             </div>
             <div className={styles.networks}>
-                <GitHubIcon fill={"#E3E7EF"} />
-                <LinkedinIcon fill={"#E3E7EF"} />
-                <CVicon fill={"#E3E7EF"} />
+                <Link to={"https://github.com/Andres14-Hernandez"} target="_blank">
+                  <FaGithub className={styles.icon} />
+                </Link>
+                <Link to={"https://www.linkedin.com/in/andres14hernandez/"} target="_blank">
+                  <FaLinkedin className={styles.icon}  />
+                </Link>
+                <Link to={""} target="_blank">
+                  <IoDocumentAttachOutline className={styles.icon}  />
+                </Link>
             </div>
         </section>
     )

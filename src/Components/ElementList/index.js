@@ -1,10 +1,15 @@
+import styles from './ElementList.module.css'
+import React from 'react'
 function ElementList(props){
 
-    const {title, image} = props.data
+    const {title, icon} = props.data
 
     return(
         <li>
-            <img src={image} alt={title}/>
+            <div className={styles.iconContainer}>
+                {React.cloneElement(icon, { className: styles.iconStyle })}
+                <p>{title}</p>
+            </div>
         </li>
     )
 }

@@ -18,6 +18,8 @@
     background-color: rgb(37, 43, 67);
     border: solid 3px var(--border-color);
     border-radius: 15px;
+    font-size: 30px;
+    align-items: center;
 }
 
 
@@ -31,7 +33,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     list-style: none;
-    gap: 10%;
+    gap: 50px;
     color: var(--color-text);
 }
 
@@ -39,4 +41,7 @@
     padding: 5%;
     border: solid 3px var(--border-color);
     border-radius: 15px;
+    width: 200px;
+    height: 200px;
 }
+

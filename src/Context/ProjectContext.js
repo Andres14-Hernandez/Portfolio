@@ -17,16 +17,16 @@ const projectsData = [
     link: "https://cajica360.vercel.app/"
   },
   {
-    title: "Proyecto 2",
-    image: "https://via.placeholder.com/150",
-    description: "Descripción del Proyecto 2.",
-    link: "https://dev-hub-vert.vercel.app/"
+    title: "Org",
+    image: "img/org.png",
+    description: "A platform designed to easily organize your teams and collaborators.",
+    link: "https://org-six-pied.vercel.app/"
   },
   
 ];
 
 
-export const ProjectProvider = ({ children }) => {
+export const ProjectProvider = ({children}) => {
   return (
     <ProjectContext.Provider value={projectsData}>
       {children}

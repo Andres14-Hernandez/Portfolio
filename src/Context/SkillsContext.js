@@ -1,19 +1,36 @@
 import { createContext, useContext } from "react";
+import { FaReact, FaHtml5, FaCss3Alt } from "react-icons/fa";
+import { SiJavascript } from "react-icons/si";
+import { FaGitAlt, FaGithub } from "react-icons/fa6";
+
+
 
 const SkillsContext = createContext();
 
 const SkillssData = [
   {
-    title: "Skill 1",
-    image: "https://via.placeholder.com/150",
+    title: "React",
+    icon: <FaReact/>,
   },
   {
-    title: "Skill 2",
-    image: "https://via.placeholder.com/150",
+    title: "JavaScript",
+    icon: <SiJavascript/>,
   },
   {
-    title: "Skill 3",
-    image: "https://via.placeholder.com/150",
+    title: "Git",
+    icon: <FaGitAlt/>,
+  },
+  {
+    title: "Github",
+    icon: <FaGithub/> ,
+  },
+  {
+    title: "HTML",
+    icon: <FaHtml5 />,
+  },
+  {
+    title: "CSS",
+    icon: <FaCss3Alt/>,
   },
 ];
 

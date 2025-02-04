@@ -1,5 +1,5 @@
 .description{
-    padding: 3%;
+    padding: 3% 0%;
     border-radius: 15px;
     display: flex;
     flex-direction: row;
@@ -9,7 +9,7 @@
 
 .description img{
     object-fit: contain;
-    height: 550px;
+    height: 450px;
 }
 
 .description__info{
@@ -52,4 +52,10 @@
 .networks{
     display: flex;
     gap: 60px;
+}
+
+
+.icon{
+    font-size: 100px;
+    color: #E3E7EF;
 }

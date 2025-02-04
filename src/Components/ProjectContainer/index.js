@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom"
 import styles from "./ProjectContainer.module.css"
-import ClickIcon from "../Icons/Click"
 
 
 function ProjectContainer(props){
@@ -14,7 +13,7 @@ function ProjectContainer(props){
             <div className={styles.textContainer}>
                 <h3>{title}</h3>
                 <p>{description}</p>
-                <Link to={link} target="_blank" className={styles.link}> <ClickIcon/> </Link>
+                <Link to={link} target="_blank" className={styles.link}>Visit Here</Link>
             </div>
         </div>
     )
