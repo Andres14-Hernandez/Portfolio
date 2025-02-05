@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin,  } from "react-icons/fa";
-import { IoDocumentAttachOutline } from "react-icons/io5";
+import { IoIosDocument } from "react-icons/io";
 import styles from "./HomeDescription.module.css"
 import { useState } from "react"
 import { Link } from "react-router-dom";
@@ -52,7 +52,7 @@ function HomeDescription(){
               </div>
               <div className={styles.linkContainer}>
                 <Link to={""} target="_blank">
-                  <IoDocumentAttachOutline className={styles.icon} />
+                  <IoIosDocument className={styles.icon} />
                 </Link>
                 <p>Curriculum</p>
               </div>
