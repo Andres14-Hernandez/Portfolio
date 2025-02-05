@@ -38,15 +38,24 @@ function HomeDescription(){
                 <EmailCopy/>
             </div>
             <div className={styles.networks}>
+              <div className={styles.linkContainer}>
                 <Link to={"https://github.com/Andres14-Hernandez"} target="_blank">
                   <FaGithub className={styles.icon} />
                 </Link>
+                <p>Github</p>
+              </div>
+              <div className={styles.linkContainer}>
                 <Link to={"https://www.linkedin.com/in/andres14hernandez/"} target="_blank">
-                  <FaLinkedin className={styles.icon}  />
+                  <FaLinkedin className={styles.icon} />
                 </Link>
+                <p>Linkedin</p>
+              </div>
+              <div className={styles.linkContainer}>
                 <Link to={""} target="_blank">
-                  <IoDocumentAttachOutline className={styles.icon}  />
+                  <IoDocumentAttachOutline className={styles.icon} />
                 </Link>
+                <p>Curriculum</p>
+              </div>
             </div>
         </section>
     )

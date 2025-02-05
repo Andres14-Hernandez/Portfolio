@@ -1,0 +1,13 @@
+.container{
+    height: 100%;
+}
+
+.container h1{
+    font-size: 200px;
+    text-align: center;
+}
+
+.container p{
+    font-size: 100px;
+    text-align: center;
+}
