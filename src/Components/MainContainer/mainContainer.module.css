@@ -4,3 +4,10 @@
     padding: 50px;
     background-color: #191D2D;
 }
+
+@media (max-width: 768px) {
+
+    .container{
+        padding: 2% 4%;
+    }
+}

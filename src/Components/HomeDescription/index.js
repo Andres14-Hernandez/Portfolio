@@ -37,6 +37,7 @@ function HomeDescription(){
                 <p>Front-end developer</p>
                 <EmailCopy/>
             </div>
+            
             <div className={styles.networks}>
               <div className={styles.linkContainer}>
                 <Link to={"https://github.com/Andres14-Hernandez"} target="_blank">
@@ -51,7 +52,7 @@ function HomeDescription(){
                 <p>Linkedin</p>
               </div>
               <div className={styles.linkContainer}>
-                <Link to={""} target="_blank">
+                <Link to={"https://drive.google.com/file/d/1ypIhl6Sk677EPfgyGCSGjbBxS4W84kmM/view?usp=sharing"} target="_blank">                
                   <IoIosDocument className={styles.icon} />
                 </Link>
                 <p>Curriculum</p>

@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    gap: 40px;
     align-items: center;
 }
 
@@ -66,3 +67,61 @@
     color: #E3E7EF;
     text-decoration: none;
 }
+
+
+
+@media (max-width: 1440px) {
+    
+    .description{
+        flex-direction: column; 
+        gap: 30px;
+    }
+
+    .networks{
+        margin-top: 5%;
+    }
+
+}
+
+
+  @media (max-width: 768px) {
+
+    .description img{
+        height: 250px;
+    }
+
+    .description__info{
+        margin-top: 2%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .email:hover::after {
+        display: none;
+    }
+
+      .emailSpan{
+        position: relative;
+    }
+
+    .networks{
+        margin-top: 5%;
+    }
+
+    .icon{
+        font-size: 80px;
+    }
+
+    .linkContainer p{
+        display: none;
+    }
+
+}
+
+
+  @media (max-width: 445px) {
+
+    .icon{
+        font-size: 50px;
+    }
+  }

@@ -12,3 +12,15 @@
     color: var(--color-title);
     font-size: 80px;
 }
+
+@media (max-width: 768px) {
+
+    .iconStyle{
+        font-size: 60px;
+    }
+
+    .iconContainer p{
+        font-size: 20px;
+    }
+
+  }

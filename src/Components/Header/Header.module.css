@@ -5,3 +5,9 @@
     background-color: #252b43;
     border-bottom: solid 5px var(--border-color);
 }
+
+@media (max-width: 768px) {
+    .header{
+        display: none;
+    }
+  }
