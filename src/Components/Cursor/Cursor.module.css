@@ -1,0 +1,11 @@
+.cursor{
+    background: linear-gradient(to right, #5b4597, #08c683);
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    pointer-events: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    filter: blur(2vmax);
+    z-index: 0;
+ }

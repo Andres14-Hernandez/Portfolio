@@ -3,6 +3,7 @@ import About from "../../Components/About"
 import HomeDescription from "../../Components/HomeDescription"
 import Projects from "../../Components/Projects"
 
+
 function Home(){
     return(
         <>

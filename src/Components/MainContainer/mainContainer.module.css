@@ -2,7 +2,7 @@
     height: 100%;
     width: 100%;
     padding: 50px;
-    background-color: #191D2D;
+    background-color: var(--back-color);
 }
 
 @media (max-width: 768px) {

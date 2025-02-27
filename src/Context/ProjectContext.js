@@ -10,6 +10,12 @@ const projectsData = [
     link: "https://dev-hub-vert.vercel.app/"
   },
   {
+    title: "SpaceView",
+    image: "img/space-view.png",
+    description: "Discover the wonders of the universe with SpaceView, your interactive window to the cosmos. Using powerful APIs provided by NASA, you can explore breathtaking images, learn about planets in our solar system, and journey beyond to uncover the mysteries of distant galaxies. Embark on a cosmic adventure and dive into the beauty of space like never before.",
+    link: "https://space-view-delta.vercel.app/"
+  },
+  {
     title: "Cajicá 360°",
     image: "img/cajica-360.png",
     description: "A virtual tour of Cajicá, allowing users to explore and connect with local tourism service providers.",

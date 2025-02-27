@@ -3,7 +3,7 @@ import styles from "./mainContainer.module.css"
 function MainContainer({children}) {
     return(
         <section className={styles.container}>
-            {children}                
+            {children}              
         </section>
     )
 }

@@ -9,10 +9,11 @@
   --color-text: #E3E7EF;
   --border-color: #9676ee;
   --color-title:#25efc7;
+  --back-color: #252b43;
+  --container-color: #1d1c33;
 }
 
 body {
-  margin: 0;
   font-family: "Inconsolata", sans-serif;
   font-weight: 550;
   font-size: 27px;
