@@ -10,12 +10,12 @@ const projectsData = [
     // link: "https://360.turismocajica.gov.co/"
     link: "https://cajica360.vercel.app/"
   },
-    // {
-  //   title: "SpaceView",
-  //   image: "img/space-view.png",
-  //   description: "Discover the wonders of the universe with SpaceView, your interactive window to the cosmos. Using powerful APIs provided by NASA, you can explore breathtaking images, learn about planets in our solar system, and journey beyond to uncover the mysteries of distant galaxies. Embark on a cosmic adventure and dive into the beauty of space like never before.",
-  //   link: "https://space-view-delta.vercel.app/"
-  // },
+  {
+    title: "SpaceView",
+    image: "img/space-view.png",
+    description: "Discover the wonders of the universe with SpaceView, your interactive window to the cosmos. Using powerful APIs provided by NASA, you can explore breathtaking images, learn about planets in our solar system, and journey beyond to uncover the mysteries of distant galaxies. Embark on a cosmic adventure and dive into the beauty of space like never before.",
+    link: "https://space-view-delta.vercel.app/"
+  },
   {
     title: "DevHub",
     image: "img/img-DevHub.png",
