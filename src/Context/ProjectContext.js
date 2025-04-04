@@ -7,8 +7,8 @@ const projectsData = [
     title: "Cajicá 360°",
     image: "img/cajica-360.png",
     description: "A virtual tour of Cajicá, allowing users to explore and connect with local tourism service providers.",
-    // link: "https://360.turismocajica.gov.co/"
-    link: "https://cajica360.vercel.app/"
+    link: "https://360.turismocajica.gov.co/"
+    // link: "https://cajica360.vercel.app/"
   },
   {
     title: "SpaceView",
