@@ -1,6 +1,11 @@
 .container{
-    height: 90vh;
+    height: 77.4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #191D2D;
+    border: solid 5px var(--border-color);
+    border-radius: 15px;    
 }
 
 .container h1{
@@ -11,4 +16,37 @@
 .container p{
     font-size: 100px;
     text-align: center;
+}
+
+@media (max-width: 1024px) {
+
+    .container h1{
+        font-size: 150px;
+    }
+
+    .container p{
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .container{
+        height: 100vh;
+    }
+}
+
+@media (max-width: 452px) {
+
+    .container{
+        padding: 5%;
+    }
+
+    .container h1{
+        font-size: 90px;
+    }
+
+    .container p{
+        font-size: 30px;
+    }
 }
