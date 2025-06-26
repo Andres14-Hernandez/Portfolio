@@ -52,7 +52,7 @@ function HomeDescription(){
                 <p>Linkedin</p>
               </div>
               <div className={styles.linkContainer}>
-                <Link to={"https://drive.google.com/file/d/1ypIhl6Sk677EPfgyGCSGjbBxS4W84kmM/view?usp=sharing"} target="_blank">                
+                <Link to={"https://drive.google.com/file/d/12ar8Ux9iRIhnFqKsEoS7bNxdgPNfjAIR/view?usp=drive_link"} target="_blank">                
                   <IoIosDocument className={styles.icon} />
                 </Link>
                 <p>Curriculum</p>
