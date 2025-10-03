@@ -6,10 +6,10 @@ function BasePage(){
     return(
         <>
         <main>
-            <Header/>
             <MainContainer>
                 <Outlet />
             </MainContainer>
+            <Header/>
         </main>
         </>
     )
