@@ -13,7 +13,7 @@ function ProjectContainer(props){
             <div className={styles.textContainer}>
                 <h3>{title}</h3>
                 <p>{description}</p>
-                <Link to={link} target="_blank" className={styles.link}>Visit Here</Link>
+                <Link to={link} target="_blank" className={styles.link}>Demo</Link>
             </div>
         </div>
     )
