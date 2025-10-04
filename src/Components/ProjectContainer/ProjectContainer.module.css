@@ -34,6 +34,10 @@
     font-size: 30px;
 }
 
+.link :focus, .link:hover {
+    background-color: #1bbf9eff;
+}
+
 @media (max-width: 1440px) {
     .container{
         display: flex;
