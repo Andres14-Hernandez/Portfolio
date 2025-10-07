@@ -9,7 +9,9 @@ function ProjectContainer(props){
 
     return(
         <div className={styles.container}>
-            <img src={image} alt={title}/>
+            <div className={styles.img_container}>
+                <img src={image} alt={title}/>
+            </div>
             <div className={styles.textContainer}>
                 <h3>{title}</h3>
                 <p>{description}</p>
